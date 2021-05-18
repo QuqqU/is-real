@@ -10,8 +10,8 @@ You can easily figure out which string is a real number with is-real.
 const is_real = require('is_real')
 
 console.log(is_real(123)) // true
-console.log(is_real(+123)) // true
-console.log(is_real(-123)) // true
+console.log(is_real(+123.12)) // true
+console.log(is_real(-123.00)) // true
 console.log(is_real('123')) // true
 console.log(is_real('abc')) // false
 ```
