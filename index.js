@@ -8,7 +8,7 @@
  */
 
 function is_real(number) {
-    const regExp = /^[+-]?([0-9]+|[0-9]+.[0-9]+)$/g
+    const regExp = /^[+-]?([0-9]+|[0-9]+[.][0-9]+)$/g
     if (regExp.test(number)) return true
     else return false
 }
