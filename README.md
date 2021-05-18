@@ -2,7 +2,7 @@
 
 Is this real?
 
-You can easily figure out which string is a number with is-real.
+You can easily figure out which string is a real number with is-real.
 
 ## Usage
 
@@ -19,7 +19,7 @@ console.log(is_real(abc)) // false
 If there's no problem using javascript and npm, it will work well.
 
 ## License
-- MIT License.
+- MIT License
 
 You can use it the way you want.
 
