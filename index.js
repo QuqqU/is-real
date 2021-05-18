@@ -2,15 +2,14 @@
 /*
  * function
  * is_real
- * input  : A string consists of numbers.
- * output : If string represents number, true.
+ * input  : A string
+ * output : If string represents real number, true.
  *          Otherwise, false.
  */
 
 function is_real(number) {
-    console.log(number)
-    const regExp = /^[0-9]*$/g
-    if(regExp.test(number)) return true
+    const regExp = /^[+-]?[0-9]*$/g
+    if (regExp.test(number)) return true
     else return false
 }
 
